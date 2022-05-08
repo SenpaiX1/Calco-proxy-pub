@@ -8,7 +8,7 @@ function toggleModal() {
 
 document.querySelector(".submitbtn").addEventListener("click", function () {
     // Change " Blooket " to your desired username and do the same with " certified " for your desired password. or leave as is to keep it the same
-    if (document.querySelector(".usernameinput").value == "Blooket" && document.querySelector(".passwordinput").value == "cert") {
+    if (document.querySelector(".usernameinput").value == "Blooket" && document.querySelector(".passwordinput").value == "Sucks") {
         var logtext = document.querySelector(".logtext");
         var typewriter = new Typewriter(logtext, {
             loop: false,
@@ -17,12 +17,12 @@ document.querySelector(".submitbtn").addEventListener("click", function () {
 
         typewriter
             .deleteChars(5)
-            .typeString('Calco Proxy')
+            .typeString('Blocket Proxy')
             .start();
 
         document.querySelector(".passwordlog").style.display = "none";
-        document.querySelector(".modalHeader").innerHTML = "Welcome To Calco!"
-        document.querySelector(".modalDesc").innerHTML = " Calco is a simple but usefull unblocker for school computers ! <a href='https://discord.gg/4P5MdAKRyz' target='_blank'>Join our discord</a><br><p> Please donate to us as this would allow us to roll out more updates / host more websites❤️ </p> <a onclick='eth();'>Eth: Click to copy to clipboard</a><br/><a onclick='monero();'>Monero: Click to copy to clipboard</a><br /><a onclick='btc();'>btc: Click to copy to clipboard</a>"
+        document.querySelector(".modalHeader").innerHTML = "Welcome To Blocket!"
+        document.querySelector(".modalDesc").innerHTML = " Blocket is a simple but usefull unblocker for school computers ! <a href='https://sites.google.com/view/sensmi/' target='_blank'>SweetSweet</a><br><p> Please donate to us as this would allow us to roll out more updates / host more websites❤️ </p> <a onclick='eth();'>Eth: Click to copy to clipboard</a><br/><a onclick='monero();'>Monero: Click to copy to clipboard</a><br /><a onclick='btc();'>btc: Click to copy to clipboard</a>"
         document.querySelector(".modalBtn").innerHTML = "Continue"
         toggleModal();
         document.querySelector(".googlebtn").innerHTML = "<i class='discord-ico fa-brands fa-discord fa-xl'></i>    Join our discord";
@@ -49,7 +49,7 @@ document.querySelector(".modalBtn").addEventListener("click", function () {
 
 document.querySelector(".googlebtn").addEventListener("click", function () {
     // open new tab
-    window.open("https://discord.gg/4P5MdAKRyz", "_blank");
+    window.open("discord.gg/niggers", "_blank");
 })
 
 
